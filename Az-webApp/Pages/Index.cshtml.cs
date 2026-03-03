@@ -16,7 +16,7 @@ namespace Az_webApp.Pages
 
         public void OnGet()
         {
-            ViewData["Greetings"]= _configuration["Greetings"] ?? "Hello, World!";
+            ViewData["Greetings"] = "From Staging";//_configuration["Greetings"] ?? "Hello, World!";
         }
     }
 }
